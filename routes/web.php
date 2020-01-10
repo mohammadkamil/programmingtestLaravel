@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,7 +13,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::name('survey.')->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('home');
 
-Route::get('/', function () {
-    return view('welcome');
+    Route::get('/survey', function () {
+        return view('survey');
+    })->name('start');
+
+    Route::get('/result','SurveyController@getresult')->name('result');
+    Route::post('/submit', 'SurveyController@store')->name('submit');
+
+
 });
