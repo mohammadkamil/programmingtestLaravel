@@ -22,7 +22,7 @@ Route::name('survey.')->group(function () {
         return view('survey');
     })->name('start');
 
-    Route::get('/result','SurveyController@getresult')->name('result');
+    Route::get('/result','SurveyController@index')->name('result');
     Route::post('/submit', 'SurveyController@store')->name('submit');
 
 
