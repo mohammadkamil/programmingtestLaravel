@@ -75,30 +75,30 @@
                 <p>1. Age Group</p>
                 <div style="margin-left: 5%">
 
-                    <p> a. &lt;18 [Total: {{$survey[0]['totalanswer1a']}} | {{ round($survey[0]['totalanswer1a']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> b. 18 to 35 [Total: {{$survey[0]['totalanswer1b']}} | {{ round($survey[0]['totalanswer1b']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> c. 35 to 60 [Total: {{$survey[0]['totalanswer1c']}} | {{ round($survey[0]['totalanswer1c']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> d. 60 and above [Total: {{$survey[0]['totalanswer1d']}} | {{ round($survey[0]['totalanswer1d']/$survey[0]['totalquestion1']*100) }}%]</p>
+                    <p> a. &lt;18 (Total: {{$survey[0]['totalanswer1a']}} | {{ round($survey[0]['totalanswer1a']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> b. 18 to 35 (Total: {{$survey[0]['totalanswer1b']}} | {{ round($survey[0]['totalanswer1b']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> c. 35 to 60 (Total: {{$survey[0]['totalanswer1c']}} | {{ round($survey[0]['totalanswer1c']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> d. 60 and above (Total: {{$survey[0]['totalanswer1d']}} | {{ round($survey[0]['totalanswer1d']/$survey[0]['totalquestion1']*100) }}%)</p>
                 </div>
 
                 <p>2. Education Level</p>
                 <div style="margin-left: 5%">
-                    <p> a. Secondary school and below [Total: {{$survey[0]['totalanswer2a']}} | {{ round($survey[0]['totalanswer2a']/$survey[0]['totalquestion1']*100) }}%] </p>
-                    <p> b. Diploma [Total: {{$survey[0]['totalanswer2b']}} | {{ round($survey[0]['totalanswer2b']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> c. Degree [Total: {{$survey[0]['totalanswer2c']}} | {{ round($survey[0]['totalanswer2c']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> d. Post graduate degree [Total: {{$survey[0]['totalanswer2d']}} | {{ round($survey[0]['totalanswer2d']/$survey[0]['totalquestion1']*100) }}%]</p></div>
+                    <p> a. Secondary school and below (Total: {{$survey[0]['totalanswer2a']}} | {{ round($survey[0]['totalanswer2a']/$survey[0]['totalquestion1']*100) }}%) </p>
+                    <p> b. Diploma (Total: {{$survey[0]['totalanswer2b']}} | {{ round($survey[0]['totalanswer2b']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> c. Degree (Total: {{$survey[0]['totalanswer2c']}} | {{ round($survey[0]['totalanswer2c']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> d. Post graduate degree (Total: {{$survey[0]['totalanswer2d']}} | {{ round($survey[0]['totalanswer2d']/$survey[0]['totalquestion1']*100) }}%)</p></div>
 
                 <p>3. Income Level</p>
                 <div style="margin-left: 5%">
-                    <p> a. Less than RM 1000 [Total: {{$survey[0]['totalanswer3a']}} | {{ round($survey[0]['totalanswer3a']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> b. Between RM1000 to RM3000 [Total: {{$survey[0]['totalanswer3b']}} | {{ round($survey[0]['totalanswer3b']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> c. Between RM3000 to RM5000 [Total: {{$survey[0]['totalanswer3c']}} | {{ round($survey[0]['totalanswer3c']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> d. More than RM5000 [Total: {{$survey[0]['totalanswer3d']}} | {{ round($survey[0]['totalanswer3d']/$survey[0]['totalquestion1']*100) }}%]</p>
+                    <p> a. Less than RM 1000 (Total: {{$survey[0]['totalanswer3a']}} | {{ round($survey[0]['totalanswer3a']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> b. Between RM1000 to RM3000 (Total: {{$survey[0]['totalanswer3b']}} | {{ round($survey[0]['totalanswer3b']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> c. Between RM3000 to RM5000 (Total: {{$survey[0]['totalanswer3c']}} | {{ round($survey[0]['totalanswer3c']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> d. More than RM5000 (Total: {{$survey[0]['totalanswer3d']}} | {{ round($survey[0]['totalanswer3d']/$survey[0]['totalquestion1']*100) }}%)</p>
                 </div>
                 <p>4. Gender</p>
                 <div style="margin-left: 5%">
-                    <p> a. Male [Total: {{$survey[0]['totalanswer4a']}} | {{ round($survey[0]['totalanswer4a']/$survey[0]['totalquestion1']*100) }}%]</p>
-                    <p> b. Female [Total: {{$survey[0]['totalanswer4b']}} | {{ round($survey[0]['totalanswer4b']/$survey[0]['totalquestion1']*100) }}%]</p></div>
+                    <p> a. Male (Total: {{$survey[0]['totalanswer4a']}} | {{ round($survey[0]['totalanswer4a']/$survey[0]['totalquestion1']*100) }}%)</p>
+                    <p> b. Female (Total: {{$survey[0]['totalanswer4b']}} | {{ round($survey[0]['totalanswer4b']/$survey[0]['totalquestion1']*100) }}%)</p></div>
 
                 <button value="Home" onclick="location.href='{{route('survey.home')}}'"  >Home</button>
 
