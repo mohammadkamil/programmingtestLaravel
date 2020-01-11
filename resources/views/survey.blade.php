@@ -74,26 +74,26 @@
             <form action="{{route('survey.submit')}}" method="POST">
                     @csrf
                     <p>1. What is your age group?</p>
-                      <input type="radio" name="question1" value="1"> a. &lt;18 <br>
-                      <input type="radio" name="question1" value="2"> b. 18 to 35<br>
-                      <input type="radio" name="question1" value="3"> c. 35 to 60<br>
-                      <input type="radio" name="question1" value="4"> d. 60 and above<br>
+                      <input type="radio" name="question1" value="1" required> a. &lt;18 <br>
+                      <input type="radio" name="question1" value="2" required> b. 18 to 35<br>
+                      <input type="radio" name="question1" value="3" required> c. 35 to 60<br>
+                      <input type="radio" name="question1" value="4" required> d. 60 and above<br>
 
 
                     <p>2. What is your education level?</p>
-                    <input type="radio" name="question2" value="1"> a. Secondary school and below <br>
-                    <input type="radio" name="question2" value="2"> b. Diploma<br>
-                    <input type="radio" name="question2" value="3"> c. Degree<br>
-                    <input type="radio" name="question2" value="4"> d. Post graduate degree<br>
+                    <input type="radio" name="question2" value="1" required> a. Secondary school and below <br>
+                    <input type="radio" name="question2" value="2" required> b. Diploma<br>
+                    <input type="radio" name="question2" value="3" required> c. Degree<br>
+                    <input type="radio" name="question2" value="4" required> d. Post graduate degree<br>
                     <p>3. What is your monthly income?</p>
-                    <input type="radio" name="question3" value="1"> a. Less than RM 1000 <br>
-                    <input type="radio" name="question3" value="2"> b. Between RM1000 to RM3000<br>
-                    <input type="radio" name="question3" value="3"> c. Between RM3000 to RM5000<br>
-                    <input type="radio" name="question3" value="4"> d. More than RM5000<br>
+                    <input type="radio" name="question3" value="1" required> a. Less than RM 1000 <br>
+                    <input type="radio" name="question3" value="2" required> b. Between RM1000 to RM3000<br>
+                    <input type="radio" name="question3" value="3" required> c. Between RM3000 to RM5000<br>
+                    <input type="radio" name="question3" value="4" required> d. More than RM5000<br>
 
                     <p>4. Your gender :</p>
-                    <input type="radio" name="question4" value="1"> a. Male <br>
-                    <input type="radio" name="question4" value="2"> b. Female<br>
+                    <input type="radio" name="question4" value="1" required> a. Male <br>
+                    <input type="radio" name="question4" value="2" required> b. Female<br>
 
 
                       <input type="submit" value="Submit">
